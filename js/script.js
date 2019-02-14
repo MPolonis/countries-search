@@ -18,7 +18,7 @@ function searchCountries() {
 function showCountriesList(resp) {
     countriesList.innerHTML = '';
     resp.forEach(function (item) {
-        var liEl = document.createElement('h3');
+        var liEl = document.createElement('li');
         liEl.innerHTML = item.name + '<ul><li>' + 'Capital city: ' + item.capital + '</li><li>' + 'Region: ' + item.region + '</li><li>' + 'Native name: ' + item.nativeName + '</li><li>' + 'Population: ' + item.population + '</li></ul>';
         countriesList.appendChild(liEl);
     });
