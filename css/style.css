@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  font-size: 18px;
+}
+
+.searchCountry {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+#search {
+  font-size: 24px;
+  border: 1px solid #000;
+}
+
+#country-name {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.list {
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+.list {
+  font-size: 32px;
+}
+
+#countries {
+  background-color: #fff;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 28px;
+}
+
+@media (max-width: 768px) {
+  #country-name {
+    margin-left: 0;
+  }
+  .searchCountry {
+    font-size: 20px;
+  }
+  #search {
+    margin: 20px;
+  }
+  #countries {
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    font-size: 24px;
+    list-style-type: none;
+    padding: 15px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
